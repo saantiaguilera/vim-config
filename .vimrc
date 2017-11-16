@@ -77,8 +77,8 @@ set ffs=unix,dos,mac
 set wildmenu
 set lazyredraw
 
-" Make escape by pressing jk
-inoremap jk <esc>
+" Make escape by pressing pattern
+inoremap zz <esc>
 
 " Set tmux cursor change
 if exists('$TMUX')
