@@ -2,7 +2,7 @@
 
 This is just my vim config and some others (like the modified color I use). If you like it feel free to use it :)
 
-Installing: `cd ~ && mkdir .vim && cd .vim && git clone git@github.com:saantiaguilera/vim-config.git`
+Installing: `cd ~ && git clone git@github.com:saantiaguilera/vim-config.git .vim`
 
 The reason I have created this repo is because I changed my computer before grabbing this configs and I lost them. Hence, this wont happen again.
 
