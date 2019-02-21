@@ -56,7 +56,7 @@ set hidden hlsearch
 set ignorecase smartcase
 set noautochdir
 set noshowmatch
-set nowrapscan
+set wrapscan 
 set number      
 set pastetoggle=<F5>
 set path+=./model/,./ctrl/,./lib/,*/templates/,*/static/,..,*/src/main/java/
