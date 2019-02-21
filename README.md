@@ -7,3 +7,4 @@ Installing: `cd ~ && mkdir .vim && cd .vim && git clone git@github.com:saantiagu
 The reason I have created this repo is because I changed my computer before grabbing this configs and I lost them. Hence, this wont happen again.
 
 This is simply a fork of [vim-tide](https://github.com/bilibili/vim-vide) with some small changes applied
+
