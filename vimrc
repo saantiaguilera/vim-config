@@ -16,7 +16,7 @@ autocmd BufWinEnter *.sls set filetype=yaml
 autocmd GUIEnter * silent !wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 autocmd FileType php setlocal commentstring=//\ %s
 call system('mkdir -p ~/.vimtmp/undodir ~/.vimtmp/backupdir ~/.vimtmp/directory')
-colorscheme torte
+colorscheme mustang
 filetype on
 filetype plugin indent on
 filetype plugin on
@@ -45,7 +45,7 @@ set autowriteall
 set backup
 set bs+=start
 set smartindent cindent autoindent
-set shiftwidth=4 tabstop=4 smarttab
+set shiftwidth=2 tabstop=2 smarttab
 set clipboard+=unnamed
 set complete-=i
 set cursorline
@@ -62,7 +62,7 @@ set pastetoggle=<F5>
 set path+=./model/,./ctrl/,./lib/,*/templates/,*/static/,..,*/src/main/java/
 set printoptions=formfeed:y,header:0,paper:A4,duplex:off,syntax:n
 set scrolloff=1                             
-set shell=/bin/bash
+set shell=/bin/zsh
 set nocompatible               
 set showcmd                                 " Show cmd in vim-cmdline.
 set t_Co=256                                " Make vim look better in putty.
@@ -80,8 +80,7 @@ syntax on
 " statusline
 "
 set laststatus=2
-set statusline=(Vide)\ \ %<%f
-set statusline+=%w%h%m%r                 
+set statusline=%w%h%m%r                 
 set statusline+=\ %{getcwd()}
 set statusline+=\ [%{&ff}:%{&fenc}:%Y]
 set statusline+=%=%-14.(%l,%c%V%)\ %p%%
